@@ -15,13 +15,12 @@ const PostCard = ({data}) => {
        
  }
 
- console.log(data)
-    return (    <div className={renderCardType(data.type)}>
+     return (    <div className={renderCardType(data.type)}>
     <div className="singlePostItm singlePostItmMob">
       <a href="http://localhost/vouge/zorains-studio/">
         <div className="singlePostItmImg">
           <img
-            src="http://localhost/vouge/wp-content/uploads/2019/11/01-Designer-Profile-image-Zorain-768x768.jpg"
+            src={data.img}
             alt="renPost1"
           />
         </div>
