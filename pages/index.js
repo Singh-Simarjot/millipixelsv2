@@ -1,6 +1,8 @@
+import Head from "next/head";
 import { Container } from "react-bootstrap";
 import Header from "../components/header";
 import SectionContainer from "../components/sectionContainer";
+ 
 
 const sectionData = [
   {
@@ -16,8 +18,7 @@ const sectionData = [
         title: "Zorains Studio",
         subTitle: "CULTURE & LIVING",
         author: "Admin",
-        img:
-          "http://localhost/vouge/wp-content/uploads/2019/11/01-Designer-Profile-image-Zorain-768x768.jpg",
+        img: "http://dev.evantiv.com/vogue_wp/wp-content/uploads/2019/11/hair-care-hairstyling-products.jpg",
         type: "fullWidth"
       },
       {
@@ -26,7 +27,7 @@ const sectionData = [
         subTitle: "CULTURE & LIVING",
         author: "Admin",
         img:
-          "http://localhost/vouge/wp-content/uploads/2019/11/Featured110-768x768.jpg",
+          "http://dev.evantiv.com/vogue_wp/wp-content/uploads/2019/11/DIANA-PENTY-FEATURED.jpg",
         type: "oneFourth"
       },
       {
@@ -35,7 +36,7 @@ const sectionData = [
         subTitle: "CULTURE & LIVING",
         author: "Admin",
         img:
-          "http://localhost/vouge/wp-content/uploads/2019/11/01-Designer-Profile-image-Zorain-768x768.jpg",
+          "http://dev.evantiv.com/vogue_wp/wp-content/uploads/2019/11/Mira-Rajput-Kapoor.jpg",
         type: "oneFourth"
       }
     ]
@@ -54,7 +55,7 @@ const sectionData = [
         subTitle: "CULTURE & LIVING",
         author: "Admin",
         img:
-          "http://localhost/vouge/wp-content/uploads/2019/11/01-Designer-Profile-image-Zorain-768x768.jpg",
+          "http://dev.evantiv.com/vogue_wp/wp-content/uploads/2019/11/f.jpg",
         type: "fullWidth"
       },
       {
@@ -63,7 +64,7 @@ const sectionData = [
         subTitle: "CULTURE & LIVING",
         author: "Admin",
         img:
-          "http://localhost/vouge/wp-content/uploads/2019/11/Featured110-768x768.jpg",
+          "http://dev.evantiv.com/vogue_wp/wp-content/uploads/2019/11/Alia-Bhatt-wearing-Anita-Dongre.jpg",
         type: "oneFourth"
       },
       {
@@ -72,7 +73,7 @@ const sectionData = [
         subTitle: "CULTURE & LIVING",
         author: "Admin",
         img:
-          "http://localhost/vouge/wp-content/uploads/2019/11/01-Designer-Profile-image-Zorain-768x768.jpg",
+          "http://dev.evantiv.com/vogue_wp/wp-content/uploads/2019/11/IMG_3290-768x768.jpg",
         type: "oneFourth"
       }
     ]
@@ -91,7 +92,7 @@ const sectionData = [
         subTitle: "CULTURE & LIVING",
         author: "Admin",
         img:
-          "http://localhost/vouge/wp-content/uploads/2019/11/01-Designer-Profile-image-Zorain-768x768.jpg",
+          "http://dev.evantiv.com/vogue_wp/wp-content/uploads/2019/11/Featured110-768x768.jpg",
         type: "fullWidth"
       },
       {
@@ -100,7 +101,7 @@ const sectionData = [
         subTitle: "CULTURE & LIVING",
         author: "Admin",
         img:
-          "http://localhost/vouge/wp-content/uploads/2019/11/Featured110-768x768.jpg",
+          "http://dev.evantiv.com/vogue_wp/wp-content/uploads/2019/11/schon-designer-image1-768x768.jpg",
         type: "oneFourth"
       },
       {
@@ -109,7 +110,7 @@ const sectionData = [
         subTitle: "CULTURE & LIVING",
         author: "Admin",
         img:
-          "http://localhost/vouge/wp-content/uploads/2019/11/01-Designer-Profile-image-Zorain-768x768.jpg",
+          "http://dev.evantiv.com/vogue_wp/wp-content/uploads/2019/11/Featured110-768x768.jpg",
         type: "oneFourth"
       }
     ]
@@ -128,7 +129,7 @@ const sectionData = [
         subTitle: "CULTURE & LIVING",
         author: "Admin",
         img:
-          "http://localhost/vouge/wp-content/uploads/2019/11/01-Designer-Profile-image-Zorain-768x768.jpg",
+          "http://dev.evantiv.com/vogue_wp/wp-content/uploads/2019/11/Featured110-768x768.jpg",
         type: "fullWidth"
       },
       {
@@ -137,7 +138,7 @@ const sectionData = [
         subTitle: "CULTURE & LIVING",
         author: "Admin",
         img:
-          "http://localhost/vouge/wp-content/uploads/2019/11/Featured110-768x768.jpg",
+          "http://dev.evantiv.com/vogue_wp/wp-content/uploads/2019/11/schon-designer-image1-768x768.jpg",
         type: "oneFourth"
       },
       {
@@ -146,7 +147,7 @@ const sectionData = [
         subTitle: "CULTURE & LIVING",
         author: "Admin",
         img:
-          "http://localhost/vouge/wp-content/uploads/2019/11/01-Designer-Profile-image-Zorain-768x768.jpg",
+          "http://dev.evantiv.com/vogue_wp/wp-content/uploads/2019/11/Featured110-768x768.jpg",
         type: "oneFourth"
       }
     ]
